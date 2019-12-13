@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
             for (int id: citys[0]){
                 Weather weather = getTemp(id);
                 if (weather != null){
-                    String st = "City ID " + String.valueOf(id) + " Temp " + String.valueOf((int)weather.main.temp - 273);
+                    String st = "City ID " + String.valueOf(id) + " Name " + String.valueOf(weather.name)+ " Temp " + String.valueOf((int)weather.main.temp - 273);
                     cities.add(st);
                 }
             }
