@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WeatherHelp</string>
+    <integer-array name="cities_start">
+        <item>2023469</item>
+        <item>2018365</item>
+    </integer-array>
+</resources>
